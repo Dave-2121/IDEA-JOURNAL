@@ -41,8 +41,9 @@ export default function RatingComponent({
     </div>
   );
 }
+type StarIconProps = React.SVGProps<SVGSVGElement>;
 
-function StarIcon(props) {
+function StarIcon(props: StarIconProps) {
   return (
     <svg
       {...props}
